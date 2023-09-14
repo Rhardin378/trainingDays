@@ -9,7 +9,6 @@ const getRandEvent = () => {
   }
 };
 
-// The scope of `days` is too tight 
 const getTrainingDays = event => {
     let days;
   if (event === 'Marathon') {
@@ -24,7 +23,7 @@ const getTrainingDays = event => {
 };
 
 const name = 'Nala';
-// The scope of `name` is too tight 
+
 const logEvent = (name, event) => {
   console.log(`${name}'s event is: ${event}`);
 };
